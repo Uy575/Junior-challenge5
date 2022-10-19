@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_overall{
+  padding: 0px 50px 0px 50px;
+}
+.navimg{
+    margin-top: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbutton{
+    width: 150px;
+    height: 40px;
+    background-color:  white ;
+    opacity: 0.9;
+    margin-top: 2rem;
+    border: 1px solid pink;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:  hsl(322, 100%, 66%);
+    
+}
+
+.navbutton:hover{
+    cursor: pointer;
+}
+.toppart{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2.5rem;
+}
+.toptext{
+
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    margin-top: 7rem;
+}
+.topheading{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    opacity: 0.8;
+
+}
+.toppera{
+ font-size: 0.8rem;
+ font-weight: 700;
+ opacity: 0.7;
+ width: 400px;
+ text-align: center;
+ margin-left: 9rem;
+ 
+
+}
+.topbutton{
+    width: 200px;
+    height: 40px;
+    background-color:  hsl(322, 100%, 66%) ;
+    opacity: 0.9;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    border-radius: 30px;
+    margin-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 16rem;
+}
+.topbutton:hover{
+    cursor: pointer;
+   
+     
+}
+.toppic{
+    margin-top: 3rem;
+    height: 400px;
+    width: 600px;
+}
+.toppicdiv{
+    align-self: center;
+}
+.uppermid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.leftup > h1{
+    font: bold;
+    font-size: 4rem;
+
+}
+.rightup > h1{
+    font: bold;
+    font-size: 4rem;
+
+}
+.leftup > span{
+    font-family: 'Open Sans', sans-serif;
+}
+.rightup > span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: hsl(207, 100%, 98%); 
+    margin-top: -1rem;
+    width: 100%;
+
+}
+.topsectionpic{
+    margin-top: 3rem;
+}
+
+.grow_text{
+    width: 500px;
+    align-self: center;
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.growpic{
+    padding: 20px 30px 20px 0px;
+    height: 300px;
+    width: 300px;
+}
+.flowing_conversation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+.fc_text{
+    width: 500px;
+    align-self: center;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.fc_pic{
+    padding: 0px 20px 30px 20px;
+    height: 300px;
+    width: 300px;
+}
+.your_user{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: hsl(207, 100%, 98%); 
+    margin-top: -1rem;
+
+}
+.bottomsectionpic{
+    margin-top: 3rem;
+}
+
+.user_text{
+    width: 500px;
+    align-self: center;
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.user_pic{
+    padding: 20px 30px 20px 0px;
+    height: 300px;
+    width: 300px;
+}
+footer{
+    background-color:hsl(192, 100%, 9%);
+
+}
+.bgimg{
+  
+    background-image: url('./images/bg-footer-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 239px;
+    width: 100%;
+
+}
+
+.foottext{
+    color: white;
+    display: flex;
+
+}
+
+.icons > *+* , .fb{
+
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icons > *+*:hover , .fb:hover{
+    background-color: lightcoral;
+}
+
+.detail{
+    color: white;
+    width: 400px;
+    align-self: center;
+    padding: 2rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    display: flex;
+
+}
+
+li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+       opacity: 0.7;
+}
+.footimage{
+
+    display: inline-block;
+    padding-bottom: 2rem;
+}
+.phone{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 20px;   
+}
+
+.around{
+    border-radius: 6px;
+    margin: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+
+
+}
+.around > button {
+    margin-top: .5rem;
+    width: 300px;
+    height: 50px;
+    background-color:  hsl(322, 100%, 66%) ;
+    opacity: 0.9;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.around > button:hover{
+    cursor: pointer;
+}
+.aroundtext{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+     display: inline-block;
+     margin-top: 2.5rem;
+     opacity: 0.8;
+}
+h1,h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.email,.phone{
+    margin-left: 10px;
+
+}
+.leftandright{
+    display: flex;
+    justify-content: space-around;
+}
+.rightfoottext{
+    width: 400px;
+    color: white;
+}
+.rightfoottext > h1{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+ 
+ 
+}
+.rightfoottext > p{
+    padding-top: 1rem;
+    opacity: 0.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+.subs{
+    display: inline;
+}
+input{
+    margin-top: 2.5rem;
+    padding: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.rightfoottext > button{
+      width: 100px;
+      height: 30px;
+    background-color:  hsl(322, 100%, 66%) ;
+    opacity: 0.9;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    margin-left: 1.5rem;
+    margin-top: -3rem;
+
+}
+.bottombotpic{
+    width: 100%;
+}
+.bottomsectionpic{
+    width: 100%;
+}
+.bottomtoppic{
+    width: 100%;
+}
+.topsectionpic{
+    width: 100%;
+}
+
+
+@media(min-width:375px) and (max-width:720px){
+    .top_overall{
+        padding: 0px 0px;
+        background-image: url(./images/bg-hero-mobile.svg);
+
+        text-align: center;
+    }
+    .toppart{
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .toppic{
+        height: 200px;
+        width: 300px;
+    }
+    .topheading{
+        font-size: 0.9rem;
+    }
+    .toppera{
+        padding: 1rem;
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .topbutton{
+        margin: 0px;
+    }
+     .uppermid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .rightup{
+        margin-top: 3rem;
+     }
+
+    .grow{
+        flex-direction: column;
+   
+        height: auto;
+ 
+        padding: 2rem 2rem;
+        align-items: center;
+
+    }
+    .grow_text{
+        padding-left: 0px;
+        width: 70%;
+    }
+    .flowing_conversation{
+        flex-direction: column;
+        padding: 2rem 2rem;
+        align-items: center;
+
+        
+    }
+    .your_user{
+        flex-direction: column;
+        padding: 2rem 2rem;
+        align-items: center;
+        margin: -4px 
+
+    }
+    .growpic{
+        height: 200px;
+        width: 200px;
+
+    }
+    .fc_pic{
+        height: 200px;
+        width: 200px;
+    
+    }
+    .user_pic{
+        height: 200px;
+        width: 200px;
+   
+    }
+    .fc_text{
+        padding-right: 0px;
+        width: 70%;
+        
+    }
+    .user_text{
+            padding-left: 0px;
+            width: 70%;
+        
+    }
+    .fc_text > h2{
+
+        font-size: 1rem;
+    }
+    .foottext{
+        flex-direction: column;
+    }
+ 
+
+    .detail {
+
+        padding-left: 3rem;
+     
+    }
+    .footimage{
+        width: 100px;
+
+    }
+    .around{
+        text-align: center;
+    }
+
+    .navimg{
+ 
+        width: 35%;
+    }
+    .nav{
+        padding: 0px 20px 0px;
+    }
+    .leftandright{
+        flex-direction: column-reverse;
+    
+    }
+    .rightfoottext{
+        padding-left: 3rem;
+    }
+    .bgimg{
+        background-image: url('./images/bg-footer-top-mobile.svg');
+      
+    
+    }
+
+}
+@media  (min-width:768px) and (max-width:1080px){
+    .top_overall{
+        padding: 4px 4px;
+        background-image: url(./images/bg-hero-mobile.svg)
+    }
+    
+
+    footer{
+        padding-top: 4rem;
+    }
+
+   
+}
+
